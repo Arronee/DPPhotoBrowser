@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D84A31171FA2B885001FC678 /* DPPhotoAlbumsViewCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = D84A31141FA2B885001FC678 /* DPPhotoAlbumsViewCtr.m */; };
 		D8D227491FA01CC200B82C05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D227481FA01CC200B82C05 /* AppDelegate.m */; };
 		D8D2274C1FA01CC200B82C05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D2274B1FA01CC200B82C05 /* ViewController.m */; };
 		D8D2274F1FA01CC200B82C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D2274D1FA01CC200B82C05 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D84A31141FA2B885001FC678 /* DPPhotoAlbumsViewCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPhotoAlbumsViewCtr.m; sourceTree = "<group>"; };
+		D84A31151FA2B885001FC678 /* DPPhotoAlbumsViewCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPhotoAlbumsViewCtr.h; sourceTree = "<group>"; };
 		D8D227441FA01CC200B82C05 /* DPPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D227471FA01CC200B82C05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8D227481FA01CC200B82C05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,9 +42,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D84A31101FA2B885001FC678 /* DPPhotoManager */ = {
+			isa = PBXGroup;
+			children = (
+				D84A31111FA2B885001FC678 /* DPModel */,
+				D84A31121FA2B885001FC678 /* DPView */,
+				D84A31131FA2B885001FC678 /* DPController */,
+				D84A31161FA2B885001FC678 /* DPManager */,
+			);
+			path = DPPhotoManager;
+			sourceTree = "<group>";
+		};
+		D84A31111FA2B885001FC678 /* DPModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DPModel;
+			sourceTree = "<group>";
+		};
+		D84A31121FA2B885001FC678 /* DPView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DPView;
+			sourceTree = "<group>";
+		};
+		D84A31131FA2B885001FC678 /* DPController */ = {
+			isa = PBXGroup;
+			children = (
+				D84A31151FA2B885001FC678 /* DPPhotoAlbumsViewCtr.h */,
+				D84A31141FA2B885001FC678 /* DPPhotoAlbumsViewCtr.m */,
+			);
+			path = DPController;
+			sourceTree = "<group>";
+		};
+		D84A31161FA2B885001FC678 /* DPManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DPManager;
+			sourceTree = "<group>";
+		};
 		D8D2273B1FA01CC200B82C05 = {
 			isa = PBXGroup;
 			children = (
+				D84A31101FA2B885001FC678 /* DPPhotoManager */,
 				D8D227461FA01CC200B82C05 /* DPPhotoBrowser */,
 				D8D227451FA01CC200B82C05 /* Products */,
 			);
@@ -145,6 +190,7 @@
 				D8D2274C1FA01CC200B82C05 /* ViewController.m in Sources */,
 				D8D227571FA01CC200B82C05 /* main.m in Sources */,
 				D8D227491FA01CC200B82C05 /* AppDelegate.m in Sources */,
+				D84A31171FA2B885001FC678 /* DPPhotoAlbumsViewCtr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
